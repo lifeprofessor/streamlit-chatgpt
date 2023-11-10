@@ -9,7 +9,7 @@ st.write('### :orange[OpenAI API - ChatGPT 사용법]')
 st.write('* MBTI 유형별 맞춤 공부법을 추천해주는 AI입니다.')
 
 client = OpenAI(
-    api_key="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"
+    # api_key="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"
 )
 
 question = st.text_input('본인의 MBTI를 적어주세요.', "")
