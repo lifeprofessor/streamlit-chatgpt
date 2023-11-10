@@ -1,8 +1,8 @@
 from openai import OpenAI
 import streamlit as st
 
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 # ChatGPT 사용법
 st.write('### :orange[OpenAI API - ChatGPT 사용법]')
